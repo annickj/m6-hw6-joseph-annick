@@ -1,0 +1,9 @@
+main, nav {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header, footer {
+    background-color: rgb(255, 124, 141);
+    padding: 25px 0;
+}
