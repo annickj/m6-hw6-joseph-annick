@@ -1,44 +1,103 @@
-main, nav {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 12px;
-}
-
 body {
     margin: 0;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/leaves.png);
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-header, footer {
+
+header {
+    background-color: rgb(255, 124, 141);
+    padding: 25px 2;
+} 
+footer {
     background-color: rgb(255, 124, 141);
     padding: 25px 0;
 } 
 
-nav {
+header nav {
     display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 12px;
 }
 
-.link {
+nav a {
     color: white;
+    text-decoration: none;
+    padding: 0 1rem;
     margin: 0 4px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: larger;
+    display: flex;
+    align-items: center;
 }
 
 .name {
     margin-right: auto;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: x-large;
     background-color: navy;
     padding: 12px;
 }
 
+.content-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    flex: 1;
+}
+
+main {
+    flex: 3;
+}
+
+.aboutme {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.profile-img {
+    float: rights;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    
+}
+
+.text-content {
+    flex-grow: 1;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.sidebar h3 {
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a img {
+    width: 40px;
+    height: 40px;
+}
 
 footer {
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     margin-top: auto;
 }
