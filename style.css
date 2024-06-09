@@ -52,19 +52,23 @@ main {
     flex: 3;
 }
 
-.aboutme {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    gap: 2rem;
+.about-me {
+    flex: 3;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 20px;
+}
+
+p {
+    padding: 3px;
 }
 
 .profile-img {
-    float: rights;
+    float: left;
     width: 200px;
     height: auto;
     border-radius: 50%;
-    
 }
 
 .text-content {
@@ -75,6 +79,10 @@ main {
     flex: 1;
     background-color: #f0f0f0;
     padding: 20px;
+    border-radius: 10px;
+    box-shadow: 20px;
+    margin-left: 2rem;
+    text-align: center;
 }
 
 .sidebar h3 {
